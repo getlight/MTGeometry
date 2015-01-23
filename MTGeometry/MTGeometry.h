@@ -6,6 +6,10 @@
 //  Copyright (c) 2012 Mysterious Trousers. All rights reserved.
 //
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #import "TargetConditionals.h"
 #import <math.h>
 
@@ -133,6 +137,10 @@ void CGControlPointsForArcBetweenPointsWithRadius(CGPoint startPoint,
                                                   bool rightHandRule,
                                                   CGPoint *controlPoint1,
                                                   CGPoint *controlPoint2);
+    
+#ifdef __cplusplus
+}
+#endif
 
 
 
